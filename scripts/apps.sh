@@ -97,7 +97,7 @@ done
 
 # Misc casks
 echo "Installing miscellaneous applications..."
-for app in "google-chrome" firefox slack postman notion figma; do
+for app in "google-chrome" firefox slack postman notion figma raycast tableplus obsidian; do
     echo "Installing $app..."
     brew install --cask --appdir="/Applications" "$app"
     if [ $? -eq 0 ]; then
